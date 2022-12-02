@@ -250,6 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rayLayer:
+    serializedVersion: 2
+    m_Bits: 448
 --- !u!4 &179297667
 Transform:
   m_ObjectHideFlags: 0
@@ -274,11 +277,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437837516}
-  - component: {fileID: 437837517}
   - component: {fileID: 437837515}
   - component: {fileID: 437837514}
   - component: {fileID: 437837513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Esfera
   m_Icon: {fileID: 0}
@@ -363,18 +365,6 @@ Transform:
   m_Father: {fileID: 817674271}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &437837517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437837512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &454488270
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,12 +646,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 810289037}
-  - component: {fileID: 810289038}
   - component: {fileID: 810289036}
   - component: {fileID: 810289035}
   - component: {fileID: 810289034}
   - component: {fileID: 810289033}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CubeBig
   m_TagString: CuboGrande
   m_Icon: {fileID: 0}
@@ -758,18 +747,6 @@ Transform:
   m_Father: {fileID: 817674271}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 73.851, y: 0, z: 0}
---- !u!114 &810289038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810289032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &817674270
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,12 +875,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1789875287}
-  - component: {fileID: 1789875288}
   - component: {fileID: 1789875286}
   - component: {fileID: 1789875285}
   - component: {fileID: 1789875284}
   - component: {fileID: 1789875283}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CubeLittle
   m_TagString: "CuboPeque\xF1o"
   m_Icon: {fileID: 0}
@@ -1000,18 +976,6 @@ Transform:
   m_Father: {fileID: 817674271}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1789875288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789875282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1865044842
 GameObject:
   m_ObjectHideFlags: 0

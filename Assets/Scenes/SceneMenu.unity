@@ -250,9 +250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!4 &179297667
 Transform:
   m_ObjectHideFlags: 0
@@ -378,9 +375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &454488270
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +662,7 @@ GameObject:
   - component: {fileID: 810289034}
   - component: {fileID: 810289033}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: CubeBig
   m_TagString: CuboGrande
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,9 +770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &817674270
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,7 +904,7 @@ GameObject:
   - component: {fileID: 1789875284}
   - component: {fileID: 1789875283}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: CubeLittle
   m_TagString: "CuboPeque\xF1o"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1021,9 +1012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ff8f185c8660340892a43a632c765e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ignoreLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!1 &1865044842
 GameObject:
   m_ObjectHideFlags: 0

@@ -559,6 +559,10 @@ MonoBehaviour:
   Tempo: {fileID: 1903658423}
   Tiempo: 5
   DebeAumentar: 0
+  CuentaRegresiva: 1
+  esfera: {fileID: 437837512}
+  cuboGrande: {fileID: 810289032}
+  "cuboPeque\xF1o": {fileID: 1789875282}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

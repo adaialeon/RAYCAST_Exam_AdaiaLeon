@@ -93,6 +93,24 @@ public class Raycast : MonoBehaviour
                 Debug.Log(rayHit.transform.name);
             }
         }
+
+        /*if(("Fire1" == "CuboGrande"))
+        {
+            SceneManager.LoadScene("Scene1 1");
+
+        } 
+
+        if((Fire1 == "Esfera"))
+        {
+            SceneManager.LoadScene("Scene1 2");
+
+        }  
+
+        if((Fire1 == "CuboPequeño"))
+        {
+            SceneManager.LoadScene("Scene1 3");
+
+        }*/
     
     }
 
